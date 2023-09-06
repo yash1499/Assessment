@@ -48,9 +48,6 @@ variable "job_definition_name" {
   description = "Name of the Batch Job Definition"
 }
 
-# variable "container_properties" {
-#  description = "Container properties for the Batch Job Definition"
-#}
 variable "service_role_name" {
   description = "Name of the IAM Role for Batch Service"
 }
